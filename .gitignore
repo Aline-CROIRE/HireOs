@@ -1,0 +1,99 @@
+# =========================
+# NODE MODULES
+# =========================
+node_modules/
+**/node_modules/
+
+# =========================
+# BUILD OUTPUTS
+# =========================
+dist/
+build/
+out/
+.next/
+.nuxt/
+.svelte-kit/
+coverage/
+**/dist/
+**/build/
+
+# =========================
+# ENV FILES (SECRETS)
+# =========================
+.env
+.env.*
+!.env.example
+
+# =========================
+# LOGS
+# =========================
+logs/
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+
+# =========================
+# OS FILES
+# =========================
+.DS_Store
+Thumbs.db
+
+# =========================
+# IDE / EDITOR
+# =========================
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# =========================
+# TYPESCRIPT
+# =========================
+*.tsbuildinfo
+
+# =========================
+# TESTING
+# =========================
+coverage/
+jest-cache/
+
+# =========================
+# PACKAGE MANAGERS
+# =========================
+.pnpm-store/
+.yarn/
+.yarn/cache/
+.yarn/unplugged/
+.yarn/build-state.yml
+.yarn/install-state.gz
+
+# =========================
+# DOCKER
+# =========================
+docker-compose.override.yml
+
+# =========================
+# DATABASE / LOCAL FILES
+# =========================
+*.sqlite
+*.db
+
+# =========================
+# FRONTEND SPECIFIC
+# =========================
+frontend/.next/
+frontend/build/
+
+# =========================
+# BACKEND SPECIFIC
+# =========================
+backend/dist/
+backend/build/
+
+# =========================
+# MISC
+# =========================
+.tmp/
+.cache/
