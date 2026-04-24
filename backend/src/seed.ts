@@ -28,7 +28,7 @@ const sampleCandidates = [
     availability: { status: "Available", type: "Full-time" },
     status: "Pending"
   },
-  // Add 14 more varied candidates here... (abbreviated for length, but you should have 15)
+  
 ];
 
 const seed = async () => {
